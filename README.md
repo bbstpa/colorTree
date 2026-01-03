@@ -13,7 +13,12 @@ jar cfm colorTree.jar MANIFEST.MF -C bin .
 java -jar .\colorTree.jar
 ```
 
-## 使用语法
+## 使用方法
+可编写如下脚本，将之命名为colorTree.bat并将其所在路径添加到path环境变量中
+```cmd
+java -jar colorTree.jar %*
+```
+即可使用这种较短的方法来使用
 ```cmd
 colorTree [选项]
 ```
