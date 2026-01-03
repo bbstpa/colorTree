@@ -417,8 +417,6 @@ public class Main {
 			System.out.println("\t\t\t\t文件大小使用1000进制(KB)，默认为1024进制(KiB)");
 			System.out.printf("\t%s,%s\n","-fk","--ForceKB");
 			System.out.println("\t\t\t\t即使是1024进制也强制使用形如KB的形式作为单位");
-			System.out.printf("\t%s,%s\n","-P","--Pause");
-			System.out.println("\t\t\t\t执行结束后暂停");
 			System.out.printf("\t%s,%s <文件路径>\n","-r","--Redirect");
 			System.out.println("\t\t\t\t不使用任何颜色方案，重定向输出到指定文件");
 			System.out.printf("\t%s,%s\n","-v","--Version");
@@ -446,8 +444,6 @@ public class Main {
 				writer.write("\t\t\t\t文件大小使用1000进制(KB)，默认为1024进制(KiB)\n");
 				writer.write(String.format("\t%s,%s\n","-fk","--ForceKB"));
 				writer.write("\t\t\t\t即使是1024进制也强制使用形如KB的形式作为单位\n");
-				writer.write(String.format("\t%s,%s\n","-P","--Pause"));
-				writer.write("\t\t\t\t执行结束后暂停\n");
 				writer.write(String.format("\t%s,%s <文件路径>\n","-r","--Redirect"));
 				writer.write("\t\t\t\t不使用任何颜色方案，重定向输出到指定文件");
 				writer.write(String.format("\t%s,%s\n","-v","--Version"));
