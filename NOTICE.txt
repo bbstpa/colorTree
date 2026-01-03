@@ -1,0 +1,14 @@
+colorTree - 树状目录结构可视化工具
+Copyright (c) 2025 bbstpa(ysc). All rights reserved.
+
+本软件包含以下第三方组件：
+--------------------------------------------------------------------------------
+1. ICU4J (com.ibm.icu)
+   - 来源: http://site.icu-project.org
+   - 协议: Unicode License (见 THIRD-PARTY-LICENSES/ICU-LICENSE.txt)
+   - 版权声明: Copyright © Unicode, Inc. and others
+
+2. Jansi (org.fusesource.jansi)
+   - 来源: https://github.com/fusesource/jansi
+   - 协议: Apache License 2.0 (见 THIRD-PARTY-LICENSES/APACHE-2.0.txt)
+   - 版权声明: Copyright © FuseSource Corp.
